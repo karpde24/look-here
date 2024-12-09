@@ -1,0 +1,39 @@
+.GraphPage {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+.GraphContainer {
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.node circle {
+  fill: #ffffff;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.node text {
+  fill: black;
+  font-size: 16px;
+}
+
+.link {
+  stroke: black;
+  stroke-width: 2px;
+}
